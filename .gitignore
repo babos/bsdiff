@@ -9,3 +9,27 @@ NEWS
 README
 ChangeLog
 COPYING
+/build/
+/out/
+
+# Directory specifiche di Zephyr
+/zephyr/.config
+/zephyr/.config.old
+/zephyr/merged.config
+/zephyr/autoconf.h
+/zephyr/include/generated/
+
+
+
+# build
+/build*/
+
+#compiled library files
+**/libs/
+
+# mac
+**/.DS_Store
+.DS_Store
+
+# node
+**/fota-server/node_modules/**
